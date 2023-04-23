@@ -29,7 +29,7 @@ npm run dev
 
 ## Layout
 
-I created the layout using the Figma and i used the Midjorney AI to create a template for me. Also, i was inspired by two other templates. You can find the file [here] (https://www.figma.com/file/UO5lwvrvvGx0LA1CSVQXjN/WebSite---Resume?node-id=16%3A834&t=6I3o6HBViWMGQ368-1).
+I created the layout using the Figma and i used the Midjorney AI to create a template for me. Also, i was inspired by two other templates. You can find the file [here](https://www.figma.com/file/UO5lwvrvvGx0LA1CSVQXjN/WebSite---Resume?node-id=16%3A834&t=6I3o6HBViWMGQ368-1).
 
 ## Production
 
