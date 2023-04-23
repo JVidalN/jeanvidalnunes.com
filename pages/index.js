@@ -57,7 +57,7 @@ const Index = (props) => {
 };
 
 export async function getStaticProps() {
-  const repos = [];//await getReposData();
+  const repos = await getReposData();
   const blog = await getBlogData();
 
   return {
