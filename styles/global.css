@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --th-bg-60: theme('colors.blue.60');
+    --th-bg-30: theme('colors.blue.30');
+    --th-title-10: theme('colors.blue.10');
+    --th-bg-button: theme('colors.blue.10');
+    --th-text: theme('colors.blue.text');
+    --th-description: theme('colors.blue.description');
+    --th-short-description: theme('colors.blue.description');
+  }
+
+  [data-theme='dark'] {
+    --th-bg-60: theme('colors.dark.60');
+    --th-bg-30: theme('colors.dark.30');
+    --th-title-10: theme('colors.dark.10');
+    --th-bg-button: theme('colors.dark.10');
+    --th-text: theme('colors.dark.text');
+    --th-description: theme('colors.dark.description');
+    --th-short-description: theme('colors.dark.description');
+  }
+
+  [data-theme='green'] {
+    --th-bg-60: theme('colors.green.60');
+    --th-bg-30: theme('colors.green.30');
+    --th-title-10: theme('colors.green.10');
+    --th-bg-button: theme('colors.green.10');
+    --th-text: theme('colors.green.text');
+    --th-description: theme('colors.green.description');
+    --th-short-description: theme('colors.green.description');
+  }
+}
+
+@layer components {
+  .fa-icons {
+    @apply text-5xl md:text-5xl inline-block md:mr-6 transition-transform duration-500 transform  hover:-translate-y-1 hover:text-th-bg-30;
+  }
+
+  .menu-items {
+    @apply inline-block transition-transform duration-500 transform hover:-translate-y-1 hover:text-th-bg-30;
+  }
+
+  .span-image-color {
+    @apply absolute w-full h-full bg-gradient-to-tr from-th-bg-30 to-th-title-10 rounded-[50%] [&:nth-child(1)]:blur-[10px] animate-[circleRotate_5s_linear_infinite];
+  }
+}
+
+@layer utilities {
+  @keyframes floatImage {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes circleRotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
