@@ -5,8 +5,13 @@
     This project is the source code of my online resume, available at: https://jeanvidalnunes.com
 </h4>
 
+### Blue Theme
 ![Preview Blue Theme](https://github.com/jvidaln/jeanvidalnunes.com/blob/master/blue.png?raw=true)
+
+### Green Theme
 ![Preview Green Theme](https://github.com/jvidaln/jeanvidalnunes.com/blob/master/green.png?raw=true)
+
+### Dark Theme
 ![Preview Dark Theme](https://github.com/jvidaln/jeanvidalnunes.com/blob/master/dark.png?raw=true)
 
 ## Start
