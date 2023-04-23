@@ -5,7 +5,7 @@ import Photo from './Photo'
 const Hero = () => {
   return (
     <div className='w-full leading-none flex md:flex-row flex-col lg:pt-7 md:justify-around items-center'>
-      <div className='pt-16 lg:pt-16'>
+      <div className='pt-16 lg:pt-16 flex flex-col items-start'>
         <h1 className="font-['Baloo_2'] text-4xl font-bold uppercase pl-16 text-th-text">
           Hi!
           <br />

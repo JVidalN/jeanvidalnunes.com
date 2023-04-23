@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { FaGithub, FaLinkedin, FaTwitter, FaYoutube, FaMedium, FaDev } from 'react-icons/fa'
+import { FaDev, FaGithub, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
 
 const ContactMe = () => {
   return (

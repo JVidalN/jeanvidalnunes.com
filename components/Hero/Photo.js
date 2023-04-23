@@ -8,6 +8,8 @@ const Photo = () => {
       w-[410px] 
       h-[410px] 
       animate-[floatImage_4s_ease-in-out_infinite]
+      md:block
+      hidden
     '
     >
       <div

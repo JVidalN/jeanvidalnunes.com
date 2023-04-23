@@ -6,7 +6,7 @@ const experienceYears = (new Date().getFullYear()) - startDateWork;
 
 const Summary = () => {
   return (
-    <div className='py-12 px-8 mx-8 md:mx-0 md:px-16' id='about'>
+    <div className='md:py-12 py-28 px-8 mx-8 md:mx-0 md:px-16' id='about'>
       <h3 className='text-base text-center text-th-short-description'>Who Am I?</h3>
       <h2 className="font-['Baloo_2'] text-2xl text-center font-bold text-th-title-10 mt-2 mb-7">About me</h2>
       <p className='text-xl text-th-description'>
