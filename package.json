@@ -9,6 +9,9 @@
     "build": "next build",
     "start": "next start"
   },
+  "engines": {
+    "node": "22.x"
+  },
   "keywords": [],
   "author": "Jean Vidal",
   "license": "ISC",
