@@ -75,7 +75,7 @@ export async function getReposData() {
     'https://api.github.com/users/jvidaln/repos'
   );
 
-  const result = data.map(async (repo) => {
+  const result = data?.map(async (repo) => {
     let languages = Object.keys(await repositoryFetcher(repo.languages_url));
     let topics = (await repositoryFetcher(`${repo.url}/topics`)).names;
 
@@ -101,12 +101,14 @@ export async function getBlogData() {
   );
 
   const result = data.map((post) => {
+    console.log('Post data:', post);
     return {
       id: post.id,
       title: post.title,
       url: post.url,
       description: post.description,
       cover_image: post.cover_image,
+      social_image: post.social_image,
       published_at: post.published_at,
       tags: post.tags,
       reading_time_minutes: post.reading_time_minutes,

@@ -10,7 +10,7 @@ const Carousel = ({ columns, data, ElementType }) => {
     return (
         <div>
             <div className={`md:grid md:${dGrid} md:gap-5 py-4 md:my-6 h-auto overflow-hidden`}>
-                {data.slice(currentIndex, currentIndex + columns).map(element => {
+                {data?.slice(currentIndex, currentIndex + columns).map(element => {
                     return (
                         <ElementType key={element.id} data={element} />
                     )

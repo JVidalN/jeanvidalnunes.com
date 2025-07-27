@@ -26,11 +26,11 @@ const Post = ({ data }) => {
         transform 
         hover:-translate-y-2
         '
-      href={data.url} target='_blank'
+      href={data?.url} target='_blank'
     >
       <Image
-        src={data.cover_image}
-        alt={data.title}
+        src={data?.cover_image || data?.social_image}
+        alt={data?.title}
         width={500}
         height={500}
         className='rounded-t-lg w-full h-full'
